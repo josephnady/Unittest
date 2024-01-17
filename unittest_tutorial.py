@@ -1,3 +1,16 @@
+'''
+this is a tutorial demo from Python Simplified in youtube 
+https://www.youtube.com/watch?v=ibVSPVz2LAA
+
+TDD -> Test Driven Development 
+using unittest package
+
+The Three laws of TDD
+1) Write a failing test first
+2) Make sure the test fails
+3) Then write just enough code to
+fail test -> fix code -> pass test -> fail new test -> ....
+'''
 '''testing'''
 import unittest
 import string
