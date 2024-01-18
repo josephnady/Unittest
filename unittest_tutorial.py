@@ -25,7 +25,7 @@ class TestEncryption(unittest.TestCase):
     def setUp(self):
         self.my_message = "I am Batman!!! 888"
     # test go here
-    # the first part of func name must be test_
+    '''python unittests only run the function with prefix \"test\"'''
     def test_inputExists(self):
         self.assertIsNotNone(self.my_message)
 
