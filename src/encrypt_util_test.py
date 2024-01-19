@@ -2,8 +2,8 @@ import unittest
 from unittest import mock
 from unittest.mock import Mock
 
-from src.app.encrypt_util import EncryptUtil
-from mock import patch
+from app.encrypt_util import EncryptUtil
+# from mock import patch
 
 
 # before writing code
